@@ -18,7 +18,8 @@ body {
     display: flex;
     margin-top: 80px;
     text-align: center;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
@@ -27,13 +28,24 @@ h2 {
 }
 
 .selector {
-    display: block;
     width: 60px;
     height: 8px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 60px;
+}
+
+.selector a {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 100px;
+    background-color: #E0E0E0;
+}
+
+.selector a.active {
+    background: linear-gradient(to left, #FF575C, #FF8285);
+    width: 20px;
 }
 
 .button {
