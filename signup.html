@@ -20,11 +20,11 @@
     <div class="form">
         <div class="input">
             <img src="./assets/mail.png" alt="" class="lock">
-            <input type="email" placeholder="Email" class="input-email" required>
+            <input type="email" placeholder="Email" class="input-email" required id="mail" value="">
         </div>
         <div class="input">
             <img src="./assets/lock.png" alt="" class="lock">
-            <input type="password" placeholder="Password" class="input-password" required>
+            <input type="password" placeholder="Password" class="input-password" required id="pass" value="" onkeyup="sign()">
             <img src="./assets/eye.png" alt="" class="eye-pass">
         </div>
     </div>
@@ -33,7 +33,7 @@
         <span class="checkbox-text">Remember me</a></span>
     </div>
     <div class="button">
-        <button onclick="" class="btn" type="submit" disabled>Sign up</button>
+        <button onclick="" id="btn" class="btn" type="submit" disabled>Sign up</button>
     </div>
     <div class="divider">
        <hr class="line-divider">
@@ -53,6 +53,17 @@
     function check()
     {
         document.getElementById('check').setAttribute("class", "checkbox-input-checked");
+    }
+
+    function sign(){
+        var mail = document.getElementById('mail').value;
+        var pass = document.getElementById('pass').value;
+        
+        if(document.getElementById('mail').value=== "" && document.getElementById('pass').value=== ""){
+            document.getElementById('btn').disabled = true;
+        }else {
+            document.getElementById('btn').disabled = false;
+        }
     }
 </script>
 </html>
