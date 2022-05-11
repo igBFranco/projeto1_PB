@@ -12,14 +12,21 @@
 </head>
 <body>
     <div class="header">
-       <img src="./assets/back.png" class="btn-back" onclick="window.location = 'index3.html';">
+       <img src="./assets/back.png" class="btn-back" onclick="window.location = 'login.html';">
     </div>
     <div class="title">
         <h2>Create your Account</h2>
     </div>
     <div class="form">
-        <input type="email" placeholder="Email" class="input-email" required>
-        <input type="password" placeholder="Password" class="input-password" required>
+        <div class="input">
+            <img src="./assets/mail.png" alt="" class="lock">
+            <input type="email" placeholder="Email" class="input-email" required value="johndoe@mail.com">
+        </div>
+        <div class="input">
+            <img src="./assets/lock.png" alt="" class="lock">
+            <input type="password" placeholder="Password" class="input-password" required value="123456">
+            <img src="./assets/eye.png" alt="" class="eye-pass">
+        </div>
     </div>
     <div class="checkbox">
         <button onclick="check()" class="checkbox-input" id="check"></button>
