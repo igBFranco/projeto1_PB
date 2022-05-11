@@ -135,6 +135,10 @@ input:invalid {
     font-weight: 600;
 }
 
+.btn:disabled {
+    background: #DA6266;
+}
+
 .divider {
     display: flex;
     width: 360px;
@@ -158,9 +162,8 @@ input:invalid {
     font-family: 'Urbanist';
 }
 .login-social {
-    width: 380px;
+    width: 300px;
     height: auto;
-    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
