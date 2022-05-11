@@ -1,0 +1,180 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.header {
+    height: 100px;
+}
+
+.btn-back {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.title {
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    font-size: 30px;
+    color: #212121;
+}
+
+.form {
+    width: 360px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input-email {
+    width: 320px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.input-password {
+    width: 320px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-input {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #FF575C;
+    border-radius: 8px;
+}
+
+.checkbox-input-checked {
+    width: 24px;
+    height: 24px;
+    background: url(./assets/check.png) no-repeat center center;
+    border: none;
+    border-radius: 8px;
+}
+
+.checkbox-text {
+    font-size: 15px;
+    color: #212121;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 360px;
+    height: 58px;
+    border-radius: 100px;
+    border: none;
+    background: #FF575C;
+    color: white;
+    box-shadow: 4px 8px 24px rgb(255, 87, 92, 0.25);
+    font-size: 16px;
+    font-family: 'Urbanist';
+    font-weight: 600;
+}
+
+.divider {
+    display: flex;
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+}
+
+.line-divider {
+    width: 25%;
+    border: 1px solid #EEEEEE;
+}
+
+.divider-text {
+    font-size: 16px;
+    padding: 15px;
+    color: #616161;
+    font-weight: 600;
+    font-family: 'Urbanist';
+}
+.login-social {
+    width: 380px;
+    height: auto;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-login-social {
+    width: 88px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-btn-social {
+    width: 25px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.text-login {
+    font-size: 16px;
+    color: #b6b6b6;
+}
+
+.text-login a {
+    color: #FF575C;
+    text-decoration: none;
+    font-weight: 600;
+}

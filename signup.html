@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <title>Pomo</title>
+</head>
+<body>
+    <div class="header">
+       <img src="./assets/back.png" class="btn-back" onclick="window.location = 'index3.html';">
+    </div>
+    <div class="title">
+        <h2>Create your Account</h2>
+    </div>
+    <div class="form">
+        <input type="email" placeholder="Email" class="input-email" required>
+        <input type="password" placeholder="Password" class="input-password" required>
+    </div>
+    <div class="checkbox">
+        <button onclick="check()" class="checkbox-input" id="check"></button>
+        <span class="checkbox-text">Remember me</a></span>
+    </div>
+    <div class="button">
+        <button onclick="" class="btn" type="submit">Sign up</button>
+    </div>
+    <div class="divider">
+       <hr class="line-divider">
+       <span class="divider-text">or continue with</span>
+       <hr class="line-divider">
+    </div>
+    <div class="login-social">
+        <button class="btn-login-social"><img src="./assets/fb.png" alt="" class="logo-btn-social"></button>
+        <button class="btn-login-social"><img src="./assets/google.png" alt="" class="logo-btn-social"></button>
+        <button class="btn-login-social"><img src="./assets/apple.png" alt="" class="logo-btn-social"></button>
+    </div>
+    <div class="footer">
+        <p class="text-login">Already have an account? <a href="index.html"> Sign in</a></p>
+    </div>
+</body>
+<script>
+    function check()
+    {
+        document.getElementById('check').setAttribute("class", "checkbox-input-checked");
+    }
+</script>
+</html>
