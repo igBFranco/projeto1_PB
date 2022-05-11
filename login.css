@@ -1,0 +1,125 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.header {
+    height: 100px;
+}
+
+.btn-back {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #212121;
+}
+
+.login-social {
+    width: 380px;
+    height: 300px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-login-social {
+    width: 380px;
+    height: 60px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #212121;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Urbanist';
+    font-weight: 500;
+}
+
+.logo-btn-social {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.divider {
+    display: flex;
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 55px;
+}
+
+.line-divider {
+    width: 50%;
+    border: 1px solid #EEEEEE;
+}
+
+.divider-text {
+    font-size: 16px;
+    padding: 15px;
+    color: #616161;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 360px;
+    height: 58px;
+    border-radius: 100px;
+    border: none;
+    background: #FF575C;
+    color: white;
+    box-shadow: 4px 8px 24px rgb(255, 87, 92, 0.25);
+    font-size: 16px;
+    font-family: 'Urbanist';
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 52px;
+}
+
+.text-login {
+    font-size: 16px;
+    color: #b6b6b6;
+}
+
+.text-login a {
+    color: #FF575C;
+    text-decoration: none;
+    font-weight: 600;
+}
