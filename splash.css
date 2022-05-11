@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, #FF797D, #FF575C);
+}
+
+.logo {
+    display: flex;
+    margin-top: 310px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 114px;
+    height: 142px;
+}
+
+.gif {
+    display: flex;
+    margin-top: 225px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gif-img {
+    width: 60px;
+    height: 60px;
+}
