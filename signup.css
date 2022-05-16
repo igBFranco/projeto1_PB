@@ -97,7 +97,7 @@ input:invalid {
 .checkbox-input-checked {
     width: 24px;
     height: 24px;
-    background: url(./assets/check.png) no-repeat center center;
+    background: url("./assets/check.png") no-repeat center center;
     border: none;
     border-radius: 8px;
 }
@@ -118,7 +118,7 @@ input:invalid {
     height: 58px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-top: 20px;
 }
 
@@ -161,6 +161,18 @@ input:invalid {
     font-weight: 600;
     font-family: 'Urbanist';
 }
+.forgot {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.forgot a {
+    color: #FF575C;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
 .login-social {
     width: 300px;
     height: auto;
