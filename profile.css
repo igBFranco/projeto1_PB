@@ -1,0 +1,186 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    color: #212121;
+    margin-top: 60px;
+}
+
+.title p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 18px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 160px;
+    height: 143px;
+}
+
+.form {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input {
+    position: relative;
+}
+
+.input .lock{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 17px;
+}
+
+.input .arrow{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 17px;
+}
+
+.input-email {
+    width: 290px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    outline: none;
+}
+
+.input-password {
+    width: 290px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    outline: none;
+}
+
+.input-phone {
+    width: 290px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-left: 50px;
+    outline: none;
+}
+
+.input .eye-pass{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 17px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-input {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #FF575C;
+    background: white;
+    border-radius: 8px;
+}
+
+.checkbox-input-checked {
+    width: 24px;
+    height: 24px;
+    background: url("./assets/check.png") no-repeat center center;
+    border: none;
+    border-radius: 8px;
+}
+
+.checkbox-text {
+    font-size: 15px;
+    color: #212121;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 180px;
+    height: 58px;
+    border-radius: 100px;
+    border: none;
+    background: #FF575C;
+    color: white;
+    box-shadow: 4px 8px 24px rgb(255, 87, 92, 0.25);
+    font-size: 16px;
+    font-family: 'Urbanist';
+    font-weight: 600;
+}
+
+.btnSkip {
+    width: 180px;
+    height: 58px;
+    border-radius: 100px;
+    border: none;
+    background: #FFEEEF;
+    color: #FF575C;
+    font-size: 16px;
+    font-family: 'Urbanist';
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.text-login {
+    font-size: 16px;
+    color: #b6b6b6;
+}
+
+.text-login a {
+    color: #FF575C;
+    text-decoration: none;
+    font-weight: 600;
+}
